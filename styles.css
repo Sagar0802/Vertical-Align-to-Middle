@@ -1,0 +1,19 @@
+/* setting logo height and width to 50px */
+#logo{
+    height: 50px;
+    width: 50px;
+}
+/* setting article height border and position */
+article{
+    border: 1px solid black;
+    height: 100px;
+    position: relative;
+
+}
+/* styling img inside article  */
+article>img{
+position: absolute;
+top:50%;
+margin: 0;
+transform: translate(0%,-50%);
+}
